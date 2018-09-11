@@ -49,14 +49,13 @@ public class Snowman
    */
    public void draw(Graphics2D g2)
    { 
-   		g2.setColor(col); 
+   	g2.setColor(col); 
       	Ellipse2D.Double body = new Ellipse2D.Double(xL, yT, 40, 40);
       	Ellipse2D.Double middleCircle = new Ellipse2D.Double(xL, yT-20, 20, 20);
       	Ellipse2D.Double topCircle= new Ellipse2D.Double(xL, yT-30, 10, 10);
-
-          g2.fill(body);
-	      g2.fill(middleCircle);
-	      g2.fill(topCircle);
+	g2.fill(body);
+	g2.fill(middleCircle);
+	g2.fill(topCircle);
       
       
            
